@@ -1,0 +1,36 @@
+{
+  "data": {
+    "spot_file": "data/spot_with_signals_2023.csv",
+    "options_file": "data/options_data_2023.parquet",
+    "timezone": "Asia/Kolkata"
+  },
+  "indicators": {
+    "macd_fast": 12,
+    "macd_slow": 26,
+    "rsi_period": 14,
+    "bb_period": 20,
+    "supertrend_period": 10
+  },
+  "signals": {
+    "buy_threshold": 0.6,
+    "sell_threshold": 0.6,
+    "optimize_thresholds": true,
+    "custom_weights": {
+      "original_signal": 0.30,
+      "macd_bullish": 0.15,
+      "supertrend_bullish": 0.20,
+      "rsi_oversold": 0.10
+    }
+  },
+  "backtest": {
+    "initial_capital": 200000,
+    "lot_size": 75,
+    "stop_loss_pct": 1.5,
+    "take_profit_pct": 3.0,
+    "force_exit_time": "15:15"
+  },
+  "ml": {
+    "train_models": true,
+    "models_to_train": ["linear", "xgboost", "lstm"]
+  }
+}
