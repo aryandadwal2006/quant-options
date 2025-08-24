@@ -16,7 +16,7 @@ This system implements a sophisticated options trading strategy:
 ## 📁 Project Structure
 
 ```
-strategy-backtest/
+quant-options/
 ├── data/
 │   ├── spot_with_signals_2023.csv      # Spot price data with original signals
 │   └── options_data_2023.parquet       # Options chain data
@@ -42,7 +42,7 @@ strategy-backtest/
 
 ```bash
 # Clone or download the project
-cd strategy-backtest
+cd quant-options
 
 # Create virtual environment (recommended)
 python -m venv venv
@@ -516,21 +516,12 @@ TensorFlow not available. LSTM models will not be supported.
 ### Development Setup
 ```bash
 # Clone repository
-git clone <repository-url>
+git clone https://github.com/aryandadwal2006/quant-options
 cd strategy-backtest
 
 # Install development dependencies
 pip install -r requirements.txt
-pip install pytest black flake8
 
-# Run tests
-pytest tests/
-
-# Format code
-black *.py
-
-# Lint code
-flake8 *.py
 ```
 
 ### Code Standards
@@ -581,5 +572,6 @@ For questions, issues, or feature requests:
 - Web-based interface
 
 ---
+
 
 **Happy Trading! 📈**
