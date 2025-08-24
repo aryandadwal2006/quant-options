@@ -1,0 +1,19 @@
+﻿Quant Researcher Internship Opportunity
+Frequently Asked Questions (FAQ)
+1. What is the role? We are hiring for a Quant Researcher Intern. This role involves working closely with our quantitative analysis team to develop and test trading strategies, analyze financial data, and contribute to our research efforts.
+2. Is this a paid internship? Yes, this is a paid internship. A competitive stipend will be provided to the selected candidates. Specific details about the stipend will be discussed during the interview process.
+3. What are the working hours and days? This is a full-time, in-office internship. The required hours are Monday to Friday, from 9:00 AM to 6:00 PM.
+4. Is this a remote or in-office position? This is an in-office position. Depending upon the competitiveness of the candidate, hybrid mode can also be considered .
+5. What is the duration of the internship? The standard duration of the internship is 3 months. This can be discussed further during the interview.
+Task Details
+To be considered for this internship, you are required to complete a mandatory assessment task. The task is designed to evaluate your problem-solving skills, technical abilities, and understanding of quantitative concepts.
+All the necessary information and instructions for the task are contained within a text file named task.txt.
+You can access the task file via the following link:
+[Insert Your Google Drive Link to task.txt Here]
+Instructions:
+    1. Click on the link above to access the task.txt file.
+    2. Read the instructions carefully.
+    3. Complete the task as specified.
+    4. Submit your work according to the instructions in the file.
+Please note: Applications without the completed task will not be considered. We look forward to reviewing your submission.
+
